@@ -1,0 +1,121 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold condensed;
+    color: #AC2B37;
+    font-size: 25px;
+    padding: 3px;
+   }
+   body {
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 18px;
+       color: #AC2B37;
+       background-color: #A9B0B7;
+       padding-left: 5px;
+       
+   }
+   video {
+    /* add your style definitions here */
+    border: #AC2B37;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+
+    /* transitions applied to the video element */
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+audio {
+    border: #AC2B37;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+
+}
+     
+   h1 {
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 42px;
+       text-align: center;
+
+   }
+   p {
+       padding: 15px;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 18px;
+       font-weight: bolder;
+       text-align: center;
+   }
+   #WPI{
+    /*center the image*/
+    display: block; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;}
+    #main_nav ul { padding: 0; margin: 0; }
+
+    #main_nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        font-weight: bold;
+    }
+     
+    #main_nav ul li {
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #222;
+        display: block;
+        margin-bottom: -1px;
+        padding: 12px 10px;
+    }
+     
+    #main_nav ul li a{
+        text-decoration: none;
+      }
+      
+      /* add traditional rounded corners to the navigation menu*/
+
+#main_nav li:first-child{
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+ 
+#main_nav li:last-child{
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+nav li:active {
+    background-color: #ccc;
+    background-image: none;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+  }
+  footer {
+      font-family: 'Times New Roman', Times, serif;
+      padding-top: 85px;
+      text-align: center;
+  }
+  header.secondary{   
+    padding-left: 75px;
+    }
+    button {
+        /*center the button*/
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: auto;
+       margin-bottom: auto;
+       /* add your code to set top and bottom margins */
+        
+       /*add an image to your button*/
+       border-image: url("orangeButton.png");
+       background: url("orangeButton.png");
+       background-size: cover;
+       
+       /*set width and height for the button*/
+       }
+
