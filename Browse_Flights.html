@@ -1,0 +1,42 @@
+
+  <html>
+  <head><link rel="stylesheet" type="text/css" href="style.css" media="screen and (orientation:portrait)"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <title>Browse Flights</title>
+    </head>
+        <body>   
+            
+            <h1> Browse Tickets</h1>
+            <button class="back" onClick="location.href='index.html';">Back</button>
+            
+       
+            <div id="buttons">
+            </div> 	
+            <div class="topnav">
+                <header>Origin</header>
+                <input type="text" placeholder="BOS- Boston Logan Aiport, Boston, MA">
+              </div>
+            <div class="topnav">
+                <header>Destintion</header>
+                <input type="text" placeholder="MIA - Miami International Airport, Miami, FL">
+              </div>
+              <label for="fl_date">Date:</label>
+                <input type="date" id="fl_date" name="fl_date">
+                <button class="submit" onClick=underDevelopment()>Search Flights</button>
+           
+
+              <nav id="main_nav">
+                <ul>
+                   <li><a href="ex_ticket_1.html">BOS -> MIA 12/31/21 6:40 EST </a></li>
+                   <li><a href="ex_ticket_2.html">BOS -> MIA 12/31/21 13:50 EST </a></li>
+                   <li><a href="ex_ticket_3.html">BOS -> MIA 01/01/22 17:30 EST </a></li>
+                   
+                </ul>
+             </nav>       	         
+            </body>
+            <script>
+                function underDevelopment() {
+                    alert("Currently under development")
+            }
+            </script>
+        </html>

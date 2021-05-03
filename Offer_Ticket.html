@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>   
+<head>     
+	<meta name="apple-mobile-web-app-capable" content="yes">    
+	<meta name="apple-mobile-webapp-status-bar-style" content="black">
+	<meta name="viewport" content="width=device-width, user-scalable=no" >        
+	<link rel="stylesheet" href="forms.css">
+	<link rel="stylesheet" href="style.css">
+    <title>Offer Tickets</title>
+</head>   
+<body> 	
+	<h1> Offer a Ticket </h1>     
+	<button class="back" onclick="location.href='index.html';">Back</button>     
+	<div class="info">     
+		<p>Enter your ticket's information </p>    
+		<form method="post" id="register" onsubmit=offerSuccess(); autocomplete="off" >  
+
+
+            <label for="origin">Origin:</label>
+<input type="text" placeholder="Origin Airport Code" required name="origin" id="origin" required>
+<br></br>
+
+	<label for="destination">Destination:</label>
+	<input type="text" placeholder="Destination Airport Code" required name="destination" id="destination">
+    <br></br>
+	<label for="date">Date of Departure:</label>
+		<input type="date" required name="dob" id="dob"> 
+        <br></br>
+          <h3>Allow Trade Offers</h3>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+			<br />       
+			<input type="submit" value="Submit" onclick=confirmTicket()> 
+		</form>          
+	</div> 
+    <script>
+        function offerSuccess() {
+            alert("Ticket sucessfully submitted.")
+        }
+        function confirmTicket() {
+            alert("Ticket is estimated to be worth 400-600 AirTokens. Are you sure you want to submit this ticket?")
+        }
+    </script>        
+</body> 
+</html>
