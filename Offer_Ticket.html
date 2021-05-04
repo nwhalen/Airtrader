@@ -38,9 +38,14 @@
     <script>
         function offerSuccess() {
             alert("Ticket sucessfully submitted.")
+            returnHome();
         }
         function confirmTicket() {
             alert("Ticket is estimated to be worth 400-600 AirTokens. Are you sure you want to submit this ticket?")
+            returnHome();
+        }
+        function returnHome(){
+            location.href("index.html")
         }
     </script>        
 </body> 
